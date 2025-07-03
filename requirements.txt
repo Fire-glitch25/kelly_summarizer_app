@@ -1,0 +1,4 @@
+flask
+transformers
+fpdf
+gunicorn
