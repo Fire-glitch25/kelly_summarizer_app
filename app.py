@@ -1,4 +1,4 @@
-from flask import Flask, request, Response
+import streamlit as st
 from transformers import pipeline
 from fpdf import FPDF
 
