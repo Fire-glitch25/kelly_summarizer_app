@@ -1,8 +1,6 @@
 import streamlit as st
 from transformers import pipeline
 from fpdf import FPDF
-
-app = Flask(__name__)
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
 
 
